@@ -222,6 +222,7 @@ export function filterData(term, data) {
   });
 }
 
+// formata cartao
 export function formataCartaoInput(value) {
   const numericData = onlyNumbers(value);
   return numericData
