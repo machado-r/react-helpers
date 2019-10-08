@@ -221,3 +221,17 @@ export function filterData(term, data) {
     );
   });
 }
+
+export function formataCartaoInput(value) {
+  const numericData = onlyNumbers(value);
+  return numericData
+    .slice(0, 16)
+    .split('')
+    .reduce((acc, current, index) => {
+      const result = `${acc}${current}`;
+      if (!isLastChar(index, numericData)) {
+        if ([3, 7, 11].includes(index)) return `${result} `;
+      }
+      return result;
+    }, '');
+}
