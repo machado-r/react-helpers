@@ -1,0 +1,23 @@
+{
+  "name": "react-helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machado-r/react-helpers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/machado-r/react-helpers/issues"
+  },
+  "homepage": "https://github.com/machado-r/react-helpers#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "format": "^0.2.2"
+  }
+}
