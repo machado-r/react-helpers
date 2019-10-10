@@ -17,7 +17,7 @@
     "url": "https://github.com/machado-r/react-helpers/issues"
   },
   "homepage": "https://github.com/machado-r/react-helpers#readme",
-  "dependencies": {
+  "peerDependencies": {
     "axios": "^0.19.0",
     "date-fns": "^2.4.1"
   }
